@@ -41,6 +41,8 @@ Analyze disk space usage in the /home/user directory and display the top 5 large
     
     python diskspace_analyzer.py /home/user --limit 5
 
+![Screenshot](result.png)
+
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
