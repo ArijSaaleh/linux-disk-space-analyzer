@@ -26,7 +26,6 @@ Replace /path/to/directory with the directory you want to analyze and N with the
 
 ## Usage 
 
-    ```sh
     usage: diskspace_analyzer.py [-h] [--limit LIMIT] directory
 
     Analyze disk space usage.
@@ -37,3 +36,11 @@ Replace /path/to/directory with the directory you want to analyze and N with the
     optional arguments:
     -h, --help       show this help message and exit
     --limit LIMIT    Limit the number of results (default: 10)
+## Examples 
+    Analyze disk space usage in the /home/user directory and display the top 5 largest items:
+    
+    python diskspace_analyzer.py /home/user --limit 5
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
